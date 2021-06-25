@@ -1,9 +1,9 @@
 from django.db import models
 
-from fastorder.utils.models import CRideModel
-from fastorder.menus.models import Bebida, Platillo, Postre
+from fastOrder.utils.models import FastOrderModel
+from fastOrder.menus.models import Bebida, Platillo, Postre
 
-class Orden(CRideModel):
+class Orden(FastOrderModel):
     bebida = models.ManyToManyField(Bebida)
     platillo = models.ManyToManyField(Platillo)
     postre = models.ManyToManyField(Postre)

@@ -2,7 +2,7 @@
 from rest_framework import serializers
 
 # Models
-from fastorder.menus.models import Bebida, Platillo, Postre
+from fastOrder.menus.models import Bebida, Platillo, Postre
 
 
 class BebidaModelSerializer(serializers.ModelSerializer):

@@ -1,9 +1,9 @@
 from django.db import models
 
-from fastorder.utils.models import CRideModel
+from fastOrder.utils.models import FastOrderModel
 
 
-class Platillo(CRideModel):
+class Platillo(FastOrderModel):
     name = models.CharField('platillo', max_length=140)
     price = models.FloatField('price')
     comida_choices = (
@@ -18,7 +18,7 @@ class Platillo(CRideModel):
         return self.name
 
 
-class Bebida(CRideModel):
+class Bebida(FastOrderModel):
     name = models.CharField('bebida name', max_length=140)
     price = models.FloatField('price')
     bebida_choices = (
@@ -34,7 +34,7 @@ class Bebida(CRideModel):
         return self.name
 
 
-class Postre(CRideModel):
+class Postre(FastOrderModel):
     name = models.CharField('postre', max_length=140)
     price = models.FloatField('price')
     description = models.TextField(max_length=500, blank=True)

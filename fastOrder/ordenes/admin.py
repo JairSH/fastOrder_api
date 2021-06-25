@@ -1,7 +1,7 @@
 from django.contrib import admin
 
 
-from fastorder.ordenes.models import Orden
+from fastOrder.ordenes.models import Orden
 
 @admin.register(Orden)
 class OrdenAdmin(admin.ModelAdmin):

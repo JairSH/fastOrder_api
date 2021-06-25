@@ -2,7 +2,7 @@
 from rest_framework import serializers
 
 # Models
-from fastorder.ordenes.models import Orden
+from fastOrder.ordenes.models import Orden
 
 class OrdenModelSerializer(serializers.ModelSerializer):
 

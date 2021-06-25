@@ -2,5 +2,5 @@ from django.apps import AppConfig
 
 
 class MenusAppConfig(AppConfig):
-    name = 'fastorder.menus'
+    name = 'fastOrder.menus'
     verbose_name = 'Menus'

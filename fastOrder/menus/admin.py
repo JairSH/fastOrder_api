@@ -1,7 +1,7 @@
 from django.contrib import admin
 
 
-from fastorder.menus.models import Bebida, Platillo, Postre
+from fastOrder.menus.models import Bebida, Platillo, Postre
 
 
 @admin.register(Platillo)

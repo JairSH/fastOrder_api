@@ -102,6 +102,8 @@ THIRD_PARTY_APPS = [
 ]
 LOCAL_APPS = [
     'fastOrder.users.apps.UsersAppConfig',
+    'fastOrder.menus.apps.MenusAppConfig',
+    'fastOrder.ordenes.apps.OrdenesAppConfig',
 ]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS

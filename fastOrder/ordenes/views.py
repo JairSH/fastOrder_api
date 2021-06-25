@@ -5,9 +5,9 @@ from rest_framework.response import Response
 
 
 # Serializers
-from fastorder.ordenes.serializers import (OrdenModelSerializer)
+from fastOrder.ordenes.serializers import (OrdenModelSerializer)
 # Models
-from fastorder.ordenes.models import Orden
+from fastOrder.ordenes.models import Orden
 
 class OrdenViewSet(viewsets.ModelViewSet):
     queryset = Orden.objects.all()
