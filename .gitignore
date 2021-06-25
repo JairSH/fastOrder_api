@@ -274,6 +274,6 @@ users/pictures/
 
 
 .ipython/
-.env
+#.env
 .envs/*
 !.envs/.local/
